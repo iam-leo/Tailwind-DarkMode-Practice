@@ -1,5 +1,8 @@
+const tailwindcss = require("tailwindcss");
+
 module.exports = {
   mode: 'jit',
+  darkMode: 'class',
   purge: [
     './*.html',
   ],
@@ -7,5 +10,7 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }

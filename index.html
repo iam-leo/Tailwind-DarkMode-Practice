@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind CSS Udemy</title>
     <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class=" bg-gray-100 p-0 m-0">
-    <header class="relative w-full h-full">
+<body class=" bg-gray-100 dark:bg-slate-800 p-0 m-0">
+    <header class="relative w-full h-full border-b-4 md:border-b-8 border-orange-600">
         <div class="p-0 h-64 sm:h-96 sm:w-full">
             <img src="/img/ntvg-lp.jpg" class="w-full h-full object-cover sm:object-left-top" alt="Mollo, Emi Brancciari y Denis Ramos">
         </div>
@@ -16,8 +17,51 @@
         </h1>
     </header>
 
-    <div class=" w-10/12 lg:w-7/12 mt-10 mr-auto ml-auto">
-        <p class="text-lg text-red-800">Hace unos días la banda uruguaya presentó su segundo corte del último disco de estudio "Luz" producido por Hécto Castillo.</p>
+    <div class="w-10/12 sm:w-7/12 mx-auto">
+        <div class="mt-10">
+            <h2 class=" text-2xl sm:text-3xl font-bold text-orange-600">La Plata de fiesta.</h2>
+            <p class="text-lg sm:text-xl my-5">No Te Va Gustar presentó Luz (2021) en La Plata en un maratónico recital de 42 canciones. “Posiblemente el más largo de nuestra historia”, dijo Emiliano Brancciari, que aseguró estar emocionado en varios pasajes del show que bordeó las tres horas. De los invitados del disco, estuvo Ricardo Mollo con el que, además de hacer una contundente versión de “Austro”, tocaron “Crimen” de Gustavo Cerati. Una versión a dos voces donde Mollo demostró la potencia de sus cuerdas vocales y Brancciari la prueba de que armónicamente puede escaparse de su estilo vocal seguro y firme. Fue como si respondiera la pregunta de uno de los versos de la canción: “¿qué otra cosa puedo hacer?”</p>
+        </div>
+
+        <div class="flex justify-center items-center my-8 aspect-w-3 aspect-h-4 sm:aspect-w-16 sm:aspect-h-9" >
+            <iframe src="https://www.youtube.com/embed/A8eNWIU7t1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class=" rounded-lg"></iframe>
+        </div>
+
+        <p class="text-lg sm:text-xl my-5">
+            Después de tocar en el Estadio Centenario en lo que fue, según ellos, uno de los recitales más importantes de su carrera, No Te Va Gustar salió al Único (ahora Diego Armando Maradona) a repasar los clásicos de su carrera, las canciones de su nuevo disco y hasta decididos a hacer entrar en su repertorio canciones que tenían ganas de tocar y que de la única manera que entraban era haciendo dos “Popurris” durante la segunda parte del show. Antes de ese momento de puro goce y mixtura, también aparecieron en el medio del estadio como lo hicieron en Montevideo para hacer un set acústico que incluyó estrenos como “Josefina” (dedicada a la abuela del cantante) y el clásico candombero “Clara”. Un rasgo que la banda, con el tiempo, fue dejando de lado.
+        </p>
+
+        <p class="text-lg sm:text-xl my-5">
+            Entre el ecosistema de las 42 canciones, durante el inicio se destacó “La rama”, que es el tema que abre el disco nuevo, una composición que se hermana con el perfume de sus compatriotas de La Vela Puerca y “Al vacío”. Un tema incluido en el definitivo Aunque cueste ver el sol (2004) que maduró sin perder potencia y drama poético. Para el momento de “Más mejor”, la banda aprovechó para dejar en claro que el rock and roll cerca del hard intenso sigue latiendo entre sus guitarras.
+        </p>
+
+        <div class=" grid gap-2 sm:grid-cols-2 sm:gap-3 my-5">
+            <img class="rounded-md" src="img/ntvg.jpg" alt="ntvg">
+            <img class="rounded-md" src="img/emi.jpg" alt="Emiliano Brancciari">
+        </div>
+
+        <p class="text-lg sm:text-xl my-5">
+            Además de Mollo, la banda invitó a la reveladora Flor Núñez (la artista destacada de las dos últimas entregas de los premios Graffiti, dedicados a la música uruguaya, por sus variados trabajos) para tocar “Nunca más a mi lado”. Una canción que está cumpliendo diez años y que acaban de relanzar, con producción de la misma Núñez, para una campaña en contra de la violencia de género. La versión de estudio tiene a referentes como Natalia Oreiro y Ana Prada y en esta en vivo Florencia se acompañó con Anita Álvarez de Toledo y Mint Parker (integrantes fijas de NTVG). También estuvo Natalie Pérez para cantar “Chau” y desde las pantallas Nicki Nicole, como había pasado el sábado anterior con Indio Solari, para cumplir con su feat en “Venganza”.
+        </p>
+
+        <p class="text-lg sm:text-xl my-5">
+            “Hablamos poco porque queremos tocar mucho”, dijo Brancciari que varias veces retomó su amor por la ciudad de La Plata. Un lugar que los vio tocar para menos de cien personas en un bar que ya no existe y que ahora, como si fuera la más corriente moneda, los aloja en el hotel de siempre mientras ven cómo se llena el campo más grande que la ciudad puede ofrecer. Como dice el inicio de su disco Luz, se despertaron soñando dos cosas: Una fue quedar mal y poco les importa. La otra es que nadie va a bajarlos de esta rama.
+        </p>
     </div>
+    <footer class=" w-full h-12 bg-orange-600 flex justify-center items-center text-yellow-50">
+        <p class="uppercase mr-2.5">Visitanos:</p>
+        <a href="#" class=" text-2xl hover:scale-125 mr-3.5 transition duration-300 ease-in-out">
+            <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="#" class=" text-2xl hover:scale-125 mr-3.5 transition duration-300 ease-in-out">
+            <i class="fab fa-twitter-square"></i>
+        </a>
+        <a href="#" class=" text-2xl hover:scale-125 mr-3.5 transition duration-300 ease-in-out">
+            <i class="fab fa-instagram-square"></i>
+        </a>
+        <a href="#" class=" text-2xl hover:scale-125 mr-3.5 transition duration-300 ease-in-out">
+            <i class="fab fa-youtube-square"></i>
+        </a>
+    </footer>
 </body>
 </html>
