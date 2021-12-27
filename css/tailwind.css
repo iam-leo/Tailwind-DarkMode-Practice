@@ -757,9 +757,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(194 65 12 / var(--tw-border-opacity));
 }
 
-.dark .dark\:bg-slate-800 {
+.dark .dark\:bg-slate-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:bg-amber-500 {
@@ -772,11 +772,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(194 65 12 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:bg-slate-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
-}
-
 .dark .dark\:text-slate-200 {
   --tw-text-opacity: 1;
   color: rgb(226 232 240 / var(--tw-text-opacity));
@@ -785,26 +780,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .dark .dark\:text-orange-700 {
   --tw-text-opacity: 1;
   color: rgb(194 65 12 / var(--tw-text-opacity));
-}
-
-.dark .dark\:text-slate-400 {
-  --tw-text-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-text-opacity));
-}
-
-.dark .dark\:text-slate-300 {
-  --tw-text-opacity: 1;
-  color: rgb(203 213 225 / var(--tw-text-opacity));
-}
-
-.dark .dark\:text-stone-400 {
-  --tw-text-opacity: 1;
-  color: rgb(168 162 158 / var(--tw-text-opacity));
-}
-
-.dark .dark\:text-neutral-400 {
-  --tw-text-opacity: 1;
-  color: rgb(163 163 163 / var(--tw-text-opacity));
 }
 
 .dark .dark\:text-zinc-300 {

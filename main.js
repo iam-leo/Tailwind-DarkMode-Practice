@@ -2,11 +2,15 @@ const btnSwitch = document.querySelector('#btnSwitch');
 const html = document.querySelector('html');
 let theme = localStorage.getItem('theme');
 
-//Recuperar dark mode si fue el ultimo utilizado
+//Recuperar dark mode si fue el ultimo utilizado o si el SO del dispositivo tiene dark mode habilitado
 if(theme && theme === 'dark'){
     btnSwitch.classList.remove('after:left-0');
     btnSwitch.classList.add('dark:after:right-0');
     html.classList.add(theme);
+}else if(!theme && window.matchMedia('(prefers-color-scheme: dark)').matches){
+    btnSwitch.classList.remove('after:left-0');
+    btnSwitch.classList.add('dark:after:right-0');
+    html.classList.add('dark');
 }
 
 //Button switch
